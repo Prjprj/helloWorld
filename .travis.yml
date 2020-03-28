@@ -2,4 +2,4 @@ laguage: c
 
 compiler: gcc
 
-install: make link
+script: make link
