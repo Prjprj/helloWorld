@@ -1,4 +1,5 @@
 laguage: c
 
-#install: make get-deps
 compiler: gcc
+
+install: make link

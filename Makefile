@@ -1,3 +1,5 @@
-compile: gcc -c HelloWorld.c
+compile: HelloWorld.c
+	gcc -c HelloWorld.c
 
-link: gcc -o HelloWorld.exe HelloWorld.o
+link: compile
+	gcc -o HelloWorld.exe HelloWorld.o
